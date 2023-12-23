@@ -39,7 +39,7 @@ import org.apache.commons.vfs2.provider.zip.ZipFileSystem;
  */
 public class ZipConfigUtils extends DefaultFileSystemConfigBuilder {
 
-    private static final String prefix = "org.apache.commons.vfs2.provider.zip.ZipFileSystemConfigBuilder";
+    private static final String PREFIX = "org.apache.commons.vfs2.provider.zip.ZipFileSystemConfigBuilder";
 
     /**
      * {@inheritDoc}
@@ -73,7 +73,7 @@ public class ZipConfigUtils extends DefaultFileSystemConfigBuilder {
     @Override
     public <T extends Object> T getParam(final FileSystemOptions opts, final String name) {
 
-        return super.getParam(opts, prefix + name);
+        return super.getParam(opts, PREFIX + name);
 
     }
 }
