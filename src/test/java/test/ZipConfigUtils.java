@@ -31,7 +31,7 @@ import org.apache.commons.vfs2.impl.DefaultFileSystemConfigBuilder;
 import org.apache.commons.vfs2.provider.zip.ZipFileSystem;
 
 /**
- * FTP configuration resolver.
+ * Zip configuration resolver.
  *
  * @author riru
  * @version 1.0.0
